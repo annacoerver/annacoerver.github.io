@@ -12,13 +12,10 @@ postnominals:
 status:
   icon: 
 role: 
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-
-  while ensuring ethical development.\n"
+bio: |-
+  Graduate student and NSF Graduate Research Fellow in the Berkeley Physics department.
+  Passionate about the early stages of the universe, novel instrumentation, and noise
+  of all varieties.
 affiliations:
   - name: 
 
