@@ -5,31 +5,44 @@ hugoblox:
     type: person
     tagline: Physics PhD Student at University of California, Berkeley
     description: ""
+    organization: University of California, Berkeley
   theme:
     mode: system
     pack: dracula
+    pack: dracula
     colors:
+      primary: ""
       primary: ""
       secondary: ""
       neutral: ""
+      neutral: ""
   typography:
+    font: serif
+    size: md
     font: serif
     size: md
   layout:
     radius: md
     spacing: comfortable
     avatar_shape: circle
+    radius: md
+    spacing: comfortable
+    avatar_shape: circle
   header:
     enable: true
     style: navbar
+    style: navbar
     sticky: true
+    align: center
     align: center
     search: true
     theme_toggle: true
   footer:
     style: minimal
+    style: minimal
     language_switcher: true
   copyright:
+    notice: © {year} {name}
     notice: © {year} {name}
   content:
     math:

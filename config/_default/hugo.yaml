@@ -37,7 +37,7 @@ enableGitInfo: false
 summaryLength: 30
 pagination:
   pagerSize: 10
-enableEmoji: true
+enableEmoji: false
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -46,9 +46,9 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 90
-  anchor: smart
+  anchor: Smart
   hint: picture
 timeout: 600000
 taxonomies:
