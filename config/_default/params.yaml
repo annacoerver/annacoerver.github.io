@@ -7,8 +7,8 @@ hugoblox:
     description: ""
     organization: University of California, Berkeley
   theme:
-    mode: system
-    pack: dracula
+    mode: light
+    pack: default
     colors:
       primary: ""
       secondary: ""
@@ -16,9 +16,8 @@ hugoblox:
   typography:
     font: serif
     size: md
-    pack: academic
-    families:
-      heading: system-serif
+    pack: modern
+    families: {}
   layout:
     radius: md
     spacing: comfortable

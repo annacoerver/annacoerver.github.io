@@ -10,7 +10,7 @@ design:
   spacing: '4rem'
   background:
     image:
-      filename: background.jpg
+      filename: background2.jpg
 
 sections:
   - block: resume-biography
