@@ -1,0 +1,38 @@
+/* Darken the page background photo so light text stays readable
+   against bright areas of the image (sky, ice, snow). Scoped to only
+   the pages that actually set a background photo - #page-bg exists on
+   every page, but most of them have no image behind it. */
+
+/* Homepage (identified by its #profile hero block). */
+body:has(#profile) #page-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 0.25) 40%,
+    rgba(0, 0, 0, 0.35) 100%
+  );
+}
+
+/* CV page (identified by its #section-cta-button-list download button)
+   wants the same lighter scrim as the old Projects page treatment. */
+body:has(#section-cta-button-list) #page-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.12) 40%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+/* The collection block's intro paragraph has no light-mode/dark-mode
+   variant classes of its own, so it stays dark even when the section
+   is set to light text over a background photo. */
+.hbb-section.dark .max-w-prose p {
+  color: #ffffff;
+}

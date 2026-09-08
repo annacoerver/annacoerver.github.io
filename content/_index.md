@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Home'
 summary: ''
 date: 2022-10-24
 type: landing
@@ -10,7 +10,8 @@ design:
   spacing: '4rem'
   background:
     image:
-      filename: background2.jpg
+      filename: background2.JPG
+
 
 sections:
   - block: resume-biography
@@ -24,7 +25,9 @@ sections:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
-          enable: true
+          enable: false
+        # Use light (white) text since this section sits on top of the page background photo
+        text_color_light: true
 
       # Name heading sizing to accommodate long or short names
       name:
@@ -42,26 +45,20 @@ sections:
         I work in the Holzapfel Lab on the South Pole Telescope experiment and am a member of the SPT-3G, SPT-3G+, and SPO (South Pole Observatory) collaborations. My PhD work has focused on improving CMB constraints on early-universe fundamental physics, ranging from polarized atmospheric mitigation to axion constraints. I am currently focused on instrumentation for SPT-3G+, the next-generation SPT receiver and "B-mode delensing machine." More information about each of these projects can be found below.
     design:
       columns: '1'
+      background:
+        text_color_light: true
   - block: collection
-    id: papers
+    id: projects
     content:
       title: Projects
       filters:
         folders:
-          - publications
-        featured_only: true
+          - projects
+        featured_only: false
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Selected Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+      background:
+        text_color_light: true
  
 ---
