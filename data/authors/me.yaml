@@ -16,19 +16,16 @@ bio: |-
   Graduate student and NSF Graduate Research Fellow in the Berkeley Physics department.
   Passionate about the early stages of the universe, novel instrumentation, and noise
   of all varieties.
-affiliations:
-  - name: 
+affiliations: 
+  - name: University of California, Berkeley
+    url: https://www.berkeley.edu/
+  - name: 'acoerver at berkeley dot edu'
 
 links:
-  - icon: at-symbol
-    url: mailto:acoerver@berkeley.edu
-    label: E-mail Me
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/anna-coerver/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=anna-coerver
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-1234-5678
 
 education:
   - degree: PhD Physics
@@ -41,48 +38,3 @@ education:
     institution: Barnard College, Columbia University
     start: 2016-09-01
     end: 2019-12-31
-
-experience:
-  - role: "Senior AI Research Scientist"
-    org: "Meta AI"
-    start: "2020-01-01"
-    summary: "Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
-  - role: "AI Research Intern"
-    org: "OpenAI"
-    start: "2019-06-01"
-    end: "2019-12-31"
-    summary: "Worked on GPT-3 scaling. Co-authored paper on prompt engineering.\n"
-skills:
-  - name: "Technical Skills"
-    items:
-      - label: "Python"
-        level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
-        level: 4
-  - name: "Research & Communication"
-    items:
-      - label: "Academic Writing"
-        level: 5
-      - label: "Conference Presentations"
-        level: 4
-      - label: "Grant Proposals"
-        level: 4
-languages:
-  - name: "English"
-    level: 5
-    label: "Native"
-  - name: "Spanish"
-    level: 4
-    label: "Fluent"
-awards:
-  - title: "Best Paper Award"
-    awarder: "NeurIPS"
-    date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
-    icon: "hero/trophy"

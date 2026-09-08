@@ -10,7 +10,7 @@ hugoblox:
     mode: light
     pack: default
     colors:
-      primary: ""
+      primary: "#1E90FF"
       secondary: ""
       neutral: ""
   typography:
@@ -23,17 +23,18 @@ hugoblox:
     spacing: comfortable
     avatar_shape: square
   header:
+    title: 'Home'
     enable: true
     style: navbar
     sticky: true
     align: center
-    search: true
+    search: false
     theme_toggle: false
   footer:
     style: minimal
     language_switcher: true
   copyright:
-    notice: © {year} {name}
+    notice: © {year} Anna Coerver
   content:
     math:
       enable: false
