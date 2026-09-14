@@ -22,6 +22,6 @@ sections:
     content:
       buttons:
         - text: 'Download CV (PDF)'
-          url: uploads/cv.pdf
+          url: /cv/CoerverCV.pdf
           icon: hero/document-arrow-down
 ---
