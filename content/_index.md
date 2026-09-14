@@ -42,7 +42,9 @@ sections:
       title: 'About Me'
       subtitle: ''
       text: |-
-        I work in the Holzapfel Lab on the South Pole Telescope experiment and am a member of the SPT-3G, SPT-3G+, and SPO (South Pole Observatory) collaborations. My PhD work has focused on improving CMB constraints on early-universe fundamental physics, ranging from polarized atmospheric mitigation to axion constraints. I am currently focused on instrumentation for SPT-3G+, the next-generation SPT receiver and "B-mode delensing machine." More information about each of these projects can be found below.
+        I work in the Holzapfel Lab on the South Pole Telescope experiment and am a member of the SPT-3G, SPT-3G+, and SPO (South Pole Observatory) collaborations. My PhD work has focused on improving CMB constraints on early-universe fundamental physics, ranging from polarized atmospheric mitigation to axion constraints. I am currently focused on instrumentation for SPT-3G+, the next-generation SPT receiver and "B-mode delensing machine." More information about each of these projects can be found below. 
+        
+        Before Berkeley, I received my B.A. in physics from Barnard College in NYC. I hold a second position at UC Berkeley as a sailing instructor in the Recreation&Wellness department, and get out on the water whenever I can. I also enjoy backpacking, ceramics, and swimming.
     design:
       columns: '1'
       background:
