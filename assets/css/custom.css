@@ -36,3 +36,9 @@ body:has(#section-cta-button-list) #page-bg::after {
 .hbb-section.dark .max-w-prose p {
   color: #ffffff;
 }
+
+/* The bio blurb under the homepage avatar uses Tailwind Typography's
+   prose-invert, which sets a muted light gray rather than pure white. */
+#profile .prose {
+  color: #ffffff;
+}
